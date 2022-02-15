@@ -8,6 +8,8 @@ public class Cool {
             System.out.println(print);
             print = "    " + print;
             Thread.sleep(500);
+            System.out.println();
         }
+        System.out.println(RED + "THUD!");
     }
 }
